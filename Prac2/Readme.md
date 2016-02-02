@@ -2,31 +2,4 @@
 ============
 Using table tag create following table structure: 
 
-Enrollment No.	StudentName	Subject name			Total 
-  marks
-					
-		S1	S2	S3	
-					
-					
-					
-					
-
-A		B								
-										
-		E			F		C			
-		D								
-										
-										
-Name				Subject name					
-								
-			Theory marks		Practical marks	
-	Marks	Maximum		Highest	Marks	Maximum	
-	obtain	marks		marks	obtain	marks	
-Abc	35		100		69	40	50	
-								
-Xyz	60		100		80	30	50	
-								
-Pqr	70		100		70	38	50	
-										
-										
-
+![Snapshot 1](https://cloud.githubusercontent.com/assets/16831556/12715129/5701ce50-c88d-11e5-84be-6b3d93ce64ed.PNG)
