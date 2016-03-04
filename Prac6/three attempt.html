@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>
+PRACTICAL 6
+</title>
+</head>
+<body>
+<script type="text/javascript">
+var chances= 3;
+var attempt= 2;
+loop: while(chances!=0){
+var que1= prompt("Who is the fastest man alive??");
+if(que1 == null){
+break loop;
+}
+var ans= confirm("are you sure?? attempt left:"+attempt);
+
+if(ans==true && que1=="flash")
+{
+alert("you are right!!");
+break loop;
+}
+else if(ans==true && que1!="flash")
+{
+alert("You are wrong");
+if(chances!=1)
+{
+	var que2=confirm("Do you want to try again??");
+if(que2==true)
+{
+attempt--;
+chances--;
+continue loop;
+}
+else 
+{
+break loop;
+}
+}
+else
+{
+break loop;
+}
+}
+
+else
+{
+break loop;
+}
+}
+
+alert("END OF GAME!!");
+</script>
+</body>
+</html>
